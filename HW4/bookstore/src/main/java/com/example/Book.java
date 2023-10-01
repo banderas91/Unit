@@ -1,0 +1,13 @@
+package com.example;
+
+public class Book {
+    private String title;
+    private String author;
+
+    public Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    // Геттеры и сеттеры для title и author
+}
