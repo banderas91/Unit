@@ -1,0 +1,39 @@
+Name                                                                                               Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------------------------------------------------------
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/__init__.py                    22      0   100%
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/__init__.py               0      0   100%
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_compat.py               84     37    56%   24, 39, 44, 49, 54, 73, 78, 81, 89, 107-110, 116, 127, 130-131, 135, 138, 145, 148, 151-155, 158, 161, 171-172, 175-179, 182, 185, 191, 200, 203-210, 218
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_eventloop.py            57     35    39%   51-73, 83, 95, 108-109, 119, 129, 139-144, 148-155
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_exceptions.py           26      7    73%   23, 37, 58-62, 68-69, 80
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_fileio.py              291    149    49%   32, 35, 73, 76, 81, 84-89, 92, 95, 98, 101, 104, 107, 110, 114, 118, 121, 127, 131, 136, 139, 142, 145, 148, 162, 176, 197-200, 211, 219-223, 282, 285, 288, 291, 294, 297, 300-301, 304-305, 308-309, 312-313, 316-317, 320, 323, 327, 331, 335, 339, 343, 347, 351, 355, 359, 363, 366-367, 370, 373, 376, 379-383, 386-387, 391-392, 395, 398, 401-402, 405, 408-411, 415-416, 419, 422, 425, 428, 431, 434, 437, 440, 443, 446, 449-450, 453, 456, 459, 464, 475, 486, 496-499, 502, 505, 510, 513, 516-517, 520-524, 527-531, 534-535, 538-539, 542, 547-550, 555-556, 563-566, 569, 572-576, 579, 582, 585, 588, 598-604
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_resources.py             6      3    50%   14-16
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_signals.py               5      1    80%   24
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_sockets.py             182    139    24%   30, 55, 70, 86, 102, 114, 159-237, 250-251, 277-318, 342-359, 384-402, 433-451, 486-499, 516, 536, 556, 579-587
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_streams.py              17      8    53%   17, 24, 39-45
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_subprocesses.py         35     26    26%   56-92, 126-127
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_synchronization.py     264    160    39%   78, 82, 86, 95, 99, 106, 109, 117, 121-145, 154-161, 165-174, 178, 186, 193-194, 197, 205, 208-209, 213-214, 223-224, 228-229, 233, 237-244, 248-252, 256-269, 277, 282-296, 299-300, 308, 312-332, 341-344, 348-356, 361, 366, 374, 379, 382, 390, 404, 408, 411-416, 421, 426, 435, 445, 452, 461, 469, 478, 487, 500-501, 515-519, 532-533, 549-553, 568-572, 579-580, 583-586, 594-595
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_tasks.py                59     25    58%   17, 34, 38, 48, 52, 57, 67, 71, 74, 82, 96-100, 105, 108, 116-120, 134-138, 151-154, 166, 178
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_testing.py              33     19    42%   27-32, 35-38, 41, 44, 47-51, 54, 64, 74-75, 80
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/_core/_typedattr.py            36     11    69%   9, 32, 52, 56, 60, 75-81
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/abc/__init__.py                16      0   100%
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/abc/_resources.py              11      2    82%   17, 25
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/abc/_sockets.py                70     26    63%   39, 47, 68-97, 102, 151-163, 175
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/abc/_streams.py                52     10    81%   27, 30-33, 122, 125-128
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/abc/_subprocesses.py           29      0   100%
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/abc/_tasks.py                  24      3    88%   8, 51-55
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/abc/_testing.py                19      3    84%   16, 24-25
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/from_thread.py                190    130    32%   44-49, 55-59, 71-76, 80-84, 96-97, 100-120, 123-126, 134-136, 141, 144, 151, 154-157, 160-161, 169-170, 173-176, 182, 195-198, 203-233, 256, 262, 266, 283, 292, 298, 323-327, 336, 342, 367-370, 393-411, 428, 442-447, 468-502
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/lowlevel.py                    86     46    47%   12, 30, 42, 57, 62, 85-87, 104-105, 109-121, 125, 129, 134-142, 147-150, 153-167, 170
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/pytest_plugin.py               96     63    34%   13, 19-25, 33-51, 63-82, 90-93, 99-100, 104-121, 128, 133-136, 141-144
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/streams/__init__.py             0      0   100%
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/streams/memory.py             135     84    38%   45, 61, 75-89, 92-114, 126-129, 139-145, 148, 156, 159, 167, 176, 190-204, 207-221, 233-236, 246-253, 256, 264, 267, 275
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/streams/stapled.py             62     29    53%   35, 38, 41, 44-45, 49, 71, 74, 77, 80-81, 85, 109-117, 122-126, 129-130, 134-138
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/streams/tls.py                138     86    38%   97-123, 128-170, 179-182, 185-192, 195-199, 202, 205-215, 221, 277-285, 292-308, 311, 315
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/anyio/to_thread.py                   15      6    60%   31, 42-46, 56, 60-65
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/sniffio/__init__.py                   3      0   100%
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/sniffio/_impl.py                     33     22    33%   66-93
+/Users/antonkonycev/Library/Python/3.11/lib/python/site-packages/sniffio/_version.py                   1      0   100%
+list_comparator.py                                                                                    16      0   100%
+test_list_comparator.py                                                                               25      0   100%
+--------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                               2138   1130    47%
